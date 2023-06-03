@@ -1,6 +1,7 @@
 ;; Frame positioning functions and key bindings.
 
-(defvar my-framepos-saved '((10 10) (-10 10)) "List of saved frame positions.")
+(defvar my-framepos-saved '((1170 135) (53 135))
+  "List of saved frame positions.")
 
 (defun my-framepos-num-frames ()
   "Return the number of frames.

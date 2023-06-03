@@ -1,4 +1,4 @@
-;; Simple package usages.
+;; Simple package configurations.
 
 ;; Vertico.
 (require 'vertico)
@@ -8,7 +8,7 @@
 (require 'undo-tree)
 (global-undo-tree-mode)
 (setq undo-tree-history-directory-alist
-      '(("/home/user/*" . "/home/user/.cache/emacs/undo-tree")))
+      '(("/home/y/*" . "/home/y/.cache/emacs/undo-tree")))
 
 ;; Which-key.
 (require 'which-key)
