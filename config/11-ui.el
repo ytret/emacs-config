@@ -4,6 +4,10 @@
 			    (width . 80) (height . 40)
 			    (font . "Hack 10")))
 
+(set-face-attribute 'fixed-pitch-serif nil
+		    :family "Hack"
+		    :weight 'bold)
+
 (menu-bar-mode -1)
 (tool-bar-mode -1)
 (scroll-bar-mode -1)
