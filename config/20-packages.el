@@ -1,21 +1,21 @@
-;; Simple package configurations.
+;;; Simple package configurations.
 
-;; Vertico.
+;;; Vertico.
 (require 'vertico)
 (vertico-mode)
 
-;; Undo-tree.
+;;; Undo-tree.
 (require 'undo-tree)
 (global-undo-tree-mode)
 (setq undo-tree-history-directory-alist
       '(("/home/y/*" . "/home/y/.cache/emacs/undo-tree")))
 
-;; Which-key.
+;;; Which-key.
 (require 'which-key)
 (which-key-mode)
 
-;; Magit.
+;;; Magit.
 (setq magit-display-buffer-function #'magit-display-buffer-fullframe-status-v1)
 
-;; Avy.
+;;; Avy.
 (global-set-key (kbd "M-]") #'avy-goto-char)

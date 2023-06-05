@@ -1,4 +1,4 @@
-;; Recentf mode configuration.
+;;; Recentf mode configuration.
 
 (recentf-mode 1)
 

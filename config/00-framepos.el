@@ -1,4 +1,4 @@
-;; Frame positioning functions and key bindings.
+;;; Frame positioning functions and key bindings.
 
 (defvar my-framepos-saved '((1170 135) (53 135))
   "List of saved frame positions.")

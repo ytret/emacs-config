@@ -1,4 +1,4 @@
-;; Emacs server and frames configuration.
+;;; Emacs server and frames configuration.
 
 (require 'server)
 

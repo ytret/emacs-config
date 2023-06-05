@@ -1,4 +1,4 @@
-;; Emacs UI configuration.
+;;; Emacs UI configuration.
 
 (setq default-frame-alist `((left . 53) (top . 135)
 			    (width . 80) (height . 44)

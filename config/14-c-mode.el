@@ -1,4 +1,4 @@
-;; C mode configuration.
+;;; C mode configuration.
 
 (add-hook 'c-mode-hook (lambda ()
 			 (c-set-offset 'case-label '+) ;indent `case'

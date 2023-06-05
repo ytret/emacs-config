@@ -1,4 +1,4 @@
-;; PATH (`exec-path') configuration.
+;;; PATH (`exec-path') configuration.
 
 (defun my-set-exec-path-from-shell-path ()
   "Set up Emacs' `exec-path' and PATH environment variables to
