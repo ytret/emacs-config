@@ -1,6 +1,6 @@
 ;; Emacs UI configuration.
 
-(setq default-frame-alist `((left . 23) (top . 23)
+(setq default-frame-alist `((left . 53) (top . 135)
 			    (width . 80) (height . 44)
 			    (font . "Hack 11")))
 
