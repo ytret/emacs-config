@@ -31,7 +31,6 @@
 ;; (require 'paredit)
 (my-add-to-hooks #'enable-paredit-mode
 		 '(emacs-lisp-mode-hook
-		   eval-expression-minibuffer-setup-hook
 		   ielm-mode-hook
 		   lisp-mode-hook
 		   lisp-interaction-mode-hook
