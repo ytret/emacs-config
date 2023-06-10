@@ -28,7 +28,7 @@
 (my-add-to-hooks (lambda () (setq fill-column 80))
 		 '(prog-mode-hook text-mode-hook))
 
-;; (require 'paredit)
+(require 'paredit)
 (my-add-to-hooks #'enable-paredit-mode
 		 '(emacs-lisp-mode-hook
 		   ielm-mode-hook
