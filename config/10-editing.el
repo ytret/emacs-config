@@ -6,7 +6,9 @@
 ;; Indentation can't insert TAB characters.
 (indent-tabs-mode -1)
 
-;; Delete selection by typing.
+(my-add-to-hooks (lambda () (indent-tabs-mode -1)) '(prog-mode-hook))
+
+;;; Delete selection by typing.
 (delete-selection-mode)
 
 ;; Show column number.
