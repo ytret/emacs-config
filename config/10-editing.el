@@ -36,3 +36,4 @@
 
 (global-set-key (kbd "C-c a") #'align)
 (global-set-key (kbd "C-c e") #'eshell)
+(global-set-key (kbd "s-SPC") #'ignore)
