@@ -35,7 +35,7 @@ See `my-framepos-set' and `my-framepos-saved'."
 The index is equal to ((`my-framepos-num-frames' - 1) % 2)."
   (interactive)
   (let ((frame (or frame (selected-frame))))
-    (my-framepos-set (cl-rem (- (my-framepos-num-frames) 1) 2)
+    (my-framepos-set (cl-rem (my-framepos-num-frames) 2)
 		  frame)))
 
 (global-set-key (kbd "C-c <") #'my-framepos-set-0th)
