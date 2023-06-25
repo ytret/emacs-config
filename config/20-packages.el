@@ -11,7 +11,7 @@
 (require 'undo-tree)
 (global-undo-tree-mode)
 (setq undo-tree-history-directory-alist
-      '(("/home/y/*" . "/home/y/.cache/emacs/undo-tree")))
+      '(("/home/ytret/*" . "/home/ytret/.cache/emacs/undo-tree")))
 
 ;;; Which-key.
 (require 'which-key)
