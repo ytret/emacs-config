@@ -19,6 +19,7 @@
 
 ;;; Magit.
 (setq magit-display-buffer-function #'magit-display-buffer-fullframe-status-v1)
+(setq magit-log-margin '(t age magit-log-margin-width nil 18))
 
 ;;; Avy.
 (global-set-key (kbd "M-]") #'avy-goto-char)
