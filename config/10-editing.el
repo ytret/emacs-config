@@ -42,5 +42,8 @@
 (setq whitespace-style '(face lines-tail))
 (add-hook 'prog-mode-hook 'whitespace-mode)
 
+;;; Hexl mode.
+(setq hexl-bits 8)
+
 (global-set-key (kbd "C-c a") #'align)
 (global-set-key (kbd "C-c e") #'eshell)
