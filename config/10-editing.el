@@ -5,6 +5,8 @@
 
 ;;; Indentation can't insert TAB characters.
 (setq-default indent-tabs-mode nil)
+(my-add-to-hooks (lambda () (setq indent-tabs-mode nil))
+                 '(prog-mode-hook))
 
 ;;; Delete selection by typing.
 (delete-selection-mode)
