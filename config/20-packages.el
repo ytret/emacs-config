@@ -23,3 +23,10 @@
 
 ;;; Avy.
 (global-set-key (kbd "M-]") #'avy-goto-char)
+
+;;; Elpy - Emacs Python Development Environment.
+(use-package elpy
+  :ensure t
+  :hook (elpy-mode . (lambda () (highlight-indentation-mode -1)))
+  :init
+  (elpy-enable))
