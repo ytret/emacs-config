@@ -1,7 +1,7 @@
 ;;; Emacs UI configuration.
 
-(setq default-frame-alist `((left . 53) (top . 135)
-			    (width . 80) (height . 44)))
+(setq default-frame-alist `((left . 1170) (top . 135)
+			    (width . 84) (height . 44)))
 
 (set-face-attribute 'default nil
 		    :family "Hack"
@@ -13,3 +13,5 @@
 (menu-bar-mode -1)
 (tool-bar-mode -1)
 (scroll-bar-mode -1)
+
+(add-hook 'prog-mode-hook #'display-line-numbers-mode)
