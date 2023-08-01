@@ -9,7 +9,7 @@
   (with-demoted-errors
       "my-server-reposition error: %s"
     (progn
-      (my-framepos-set-0th-or-1st)
+      ;; (my-framepos-set-0th-or-1st)
       (x-focus-frame (selected-frame))
       (display-about-screen))))
 
