@@ -4,8 +4,8 @@
   (mapc (lambda (hook) (add-hook hook fun)) hooks))
 
 ;;; Indentation can't insert TAB characters.
-(setq-default indent-tabs-mode nil)
-(my-add-to-hooks (lambda () (setq indent-tabs-mode nil))
+(setq-default indent-tabs-mode -1)
+(my-add-to-hooks (lambda () (setq indent-tabs-mode -1))
                  '(prog-mode-hook))
 
 ;;; Delete selection by typing.
