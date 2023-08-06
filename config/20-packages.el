@@ -30,3 +30,6 @@
   :hook (elpy-mode . (lambda () (highlight-indentation-mode -1)))
   :init
   (elpy-enable))
+
+;;; CMake.
+(use-package cmake-mode)
