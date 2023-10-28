@@ -11,6 +11,7 @@
     (progn
       ;; (my-framepos-set-0th-or-1st)
       (x-focus-frame (selected-frame))
-      (display-about-screen))))
+      ;; (display-about-screen)
+      )))
 
 (add-hook 'server-after-make-frame-hook #'my-server-reposition)
