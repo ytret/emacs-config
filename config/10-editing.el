@@ -22,7 +22,7 @@
 (setq require-final-newline t)
 
 ;;; Truncate lines in some modes.
-(setq truncate-lines nil)
+(setq truncate-lines t)
 (my-add-to-hooks (lambda () (setq truncate-lines t))
 		 '(prog-mode-hook Info-mode-hook))
 
