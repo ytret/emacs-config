@@ -12,5 +12,5 @@
 (tool-bar-mode -1)
 (scroll-bar-mode -1)
 
-(load-theme 'modus-operandi)
+(load-theme 'modus-vivendi)
 (add-hook 'prog-mode-hook #'display-line-numbers-mode)
