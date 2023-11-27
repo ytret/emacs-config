@@ -4,9 +4,8 @@
   (mapc (lambda (hook) (add-hook hook fun)) hooks))
 
 ;;; Indentation can't insert TAB characters.
-(indent-tabs-mode -1)
-
-(my-add-to-hooks (lambda () (indent-tabs-mode -1)) '(prog-mode-hook))
+(setq-default indent-tabs-mode nil)
+(setq tab-width 4)
 
 ;;; Delete selection by typing.
 (delete-selection-mode)
@@ -24,19 +23,19 @@
 ;;; Truncate lines in some modes.
 (setq truncate-lines t)
 (my-add-to-hooks (lambda () (setq truncate-lines t))
-		 '(prog-mode-hook Info-mode-hook))
+                 '(prog-mode-hook Info-mode-hook))
 
 ;;; Set fill column to 80 in some modes.
 (my-add-to-hooks (lambda () (setq fill-column 80))
-		 '(prog-mode-hook text-mode-hook))
+                 '(prog-mode-hook text-mode-hook))
 
 (require 'paredit)
 (my-add-to-hooks #'enable-paredit-mode
-		 '(emacs-lisp-mode-hook
-		   ielm-mode-hook
-		   lisp-mode-hook
-		   lisp-interaction-mode-hook
-		   scheme-mode-hook))
+                 '(emacs-lisp-mode-hook
+                   ielm-mode-hook
+                   lisp-mode-hook
+                   lisp-interaction-mode-hook
+                   scheme-mode-hook))
 
 ;;; Mark characters past the 80th column.
 (require 'whitespace)
