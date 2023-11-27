@@ -18,7 +18,7 @@
 (which-key-mode)
 
 ;;; Magit.
-(setq magit-display-buffer-function #'magit-display-buffer-fullframe-status-v1)
+;; (setq magit-display-buffer-function #'magit-display-buffer-fullframe-status-v1)
 (setq magit-log-margin '(t "%Y-%m-%d %H:%M" magit-log-margin-width nil 18))
 
 ;;; Avy.
