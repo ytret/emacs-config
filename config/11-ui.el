@@ -14,3 +14,5 @@
 
 (load-theme 'modus-vivendi)
 (add-hook 'prog-mode-hook #'display-line-numbers-mode)
+
+(blink-cursor-mode 0)
