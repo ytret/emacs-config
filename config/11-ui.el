@@ -1,11 +1,11 @@
 ;;; Emacs UI configuration.
 
 (setq default-frame-alist `((left . 1170) (top . 135)
-			    (width . 84) (height . 44)
-			    (font . "Hack 11")))
+			    (width . 84) (height . 39)
+			    (font . "JetBrains Mono NL 11")))
 
 (set-face-attribute 'fixed-pitch-serif nil
-		    :family "Hack"
+		    :family "JetBrains Mono NL"
 		    :weight 'bold)
 
 (menu-bar-mode -1)
