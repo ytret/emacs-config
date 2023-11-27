@@ -5,7 +5,7 @@
 
 ;;; Indentation can't insert TAB characters.
 (setq-default indent-tabs-mode nil)
-(setq tab-width 4)
+(setq-default tab-width 4)
 
 ;;; Delete selection by typing.
 (delete-selection-mode)
