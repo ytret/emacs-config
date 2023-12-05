@@ -3,6 +3,7 @@
 (add-hook 'c-mode-hook (lambda ()
 			 (c-set-offset 'case-label '+) ;indent `case'
 			 (c-toggle-comment-style -1)   ;//-style comments
+             (local-set-key (kbd "C-c C-o") 'ff-find-other-file)
 			 ))
 
 (setq c-basic-offset 4)
