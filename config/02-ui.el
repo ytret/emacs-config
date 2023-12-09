@@ -11,6 +11,7 @@
 (menu-bar-mode -1)
 (tool-bar-mode -1)
 (scroll-bar-mode -1)
+(setq frame-resize-pixelwise t)
 
 (load-theme 'modus-vivendi)
 (add-hook 'prog-mode-hook #'display-line-numbers-mode)
