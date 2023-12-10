@@ -46,9 +46,6 @@
 
 ;;; Hexl mode.
 (setq hexl-bits 8)
-<<<<<<< HEAD
-=======
 
 (global-set-key (kbd "C-c a") #'align)
 (global-set-key (kbd "C-c e") #'eshell)
->>>>>>> sekirus-y
