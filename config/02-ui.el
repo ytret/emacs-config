@@ -1,8 +1,8 @@
 ;;; Emacs UI configuration.
 
-(setq default-frame-alist `((left . 1170) (top . 135)
-			    (width . 84) (height . 39)
-			    (font . "JetBrains Mono NL 11")))
+(setq default-frame-alist `((left . -16) (top . 46)
+			    (width . 80) (height . 35)
+			    (font . "JetBrains Mono NL 9")))
 
 (set-face-attribute 'fixed-pitch-serif nil
 		    :family "JetBrains Mono NL"
